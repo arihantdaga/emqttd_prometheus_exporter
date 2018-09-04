@@ -2,7 +2,7 @@ const http = require('http')
 const pClient = require('prom-client')
 const Config = require('../config/config')
 const request = require('request-promise')
-const prefix = 'enq'
+const prefix = 'emq'
 
 const gaugeProps = [
   {
